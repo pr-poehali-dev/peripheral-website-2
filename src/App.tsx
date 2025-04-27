@@ -8,9 +8,9 @@ import Navbar from "./components/Navbar";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Catalog from "./pages/Catalog";
+import Favorites from "./pages/Favorites";
 
 // Будущие страницы
-const Favorites = () => <div className="container py-8">Страница избранного в разработке</div>;
 const Profile = () => <div className="container py-8">Личный кабинет в разработке</div>;
 
 const queryClient = new QueryClient();
