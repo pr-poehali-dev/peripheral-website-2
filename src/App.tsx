@@ -9,9 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Catalog from "./pages/Catalog";
 import Favorites from "./pages/Favorites";
-
-// Будущие страницы
-const Profile = () => <div className="container py-8">Личный кабинет в разработке</div>;
+import Profile from "./pages/Profile";
 
 const queryClient = new QueryClient();
 
