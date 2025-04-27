@@ -7,9 +7,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Catalog from "./pages/Catalog";
 
 // Будущие страницы
-const Catalog = () => <div className="container py-8">Страница каталога в разработке</div>;
 const Favorites = () => <div className="container py-8">Страница избранного в разработке</div>;
 const Profile = () => <div className="container py-8">Личный кабинет в разработке</div>;
 
